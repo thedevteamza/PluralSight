@@ -15,6 +15,8 @@ namespace GradesBook.Tests
             book.AddGrade(90.5);
             book.AddGrade(77.3);
 
+            book.AddGrade(105);
+
             // Act = culculations
             var result = book.GetStatistics();
 
