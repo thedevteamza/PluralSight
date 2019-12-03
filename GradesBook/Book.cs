@@ -97,6 +97,6 @@ namespace GradesBook
             }
         }
 
-        readonly string Category = "Science";
+        public const string Category = "Science";
     }
 }
